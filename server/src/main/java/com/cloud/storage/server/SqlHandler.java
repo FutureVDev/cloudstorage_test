@@ -1,5 +1,6 @@
 package com.cloud.storage.server;
 
+import java.io.File;
 import java.sql.*;
 
 import static com.cloud.storage.common.MainTest.connectToDb;
@@ -82,8 +83,12 @@ public class SqlHandler {
 
     public static void connectToDb() throws Exception{
         Class.forName("org.sqlite.JDBC");
+//        String path = new File(".").getCanonicalPath();
+//        System.out.println(path);
 
-        connection = DriverManager.getConnection("jdbc:sqlite:C:/Users/1/Desktop/cloudServerFileHolder/db/cloud_server");
+//        connection = DriverManager.getConnection("jdbc:sqlite:C:/Users/1/Desktop/cloudServerFileHolder/db/cloud_server");
+
+        connection = DriverManager.getConnection("jdbc:sqlite:server/src/main/resources/cloud_server");
         statement = connection.createStatement();
     }
 

@@ -8,7 +8,7 @@ import java.util.List;
 public class SessionData {
 
     public static String sessionId;
-    public static File clientFileDir = new File("C:/Users/1/Desktop/cloudServerFileHolder/client1/");
+    public static File clientFileDir = new File("client/client_storage/");
     public static File[] clientFileList = clientFileDir.listFiles();
     public static File[] serverFileList;
 

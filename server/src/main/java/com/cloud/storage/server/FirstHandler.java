@@ -112,7 +112,7 @@ public class FirstHandler extends ChannelInboundHandlerAdapter {
     }
 
     private String getClientDir(String userName){
-        String clientDir = "C:/Users/1/Desktop/cloudServerFileHolder/server/" + userName; //TODO use relative path
+        String clientDir = "server/server_storage/" + userName; //TODO use relative path
         return clientDir;
     }
 }

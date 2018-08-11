@@ -5,6 +5,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.util.Arrays;
 
 public class Main extends Application {
@@ -19,6 +20,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) throws Exception{
+        System.out.println(new File(".").getCanonicalPath());
         System.out.println("# Client file list: " + Arrays.toString(SessionData.clientFileDir.listFiles()));
         launch(args);
     }
