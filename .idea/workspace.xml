@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb35d23-c566-4839-9174-0fd7b92fc2e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/cloud_server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/cloud/storage/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/cloud/storage/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/cloud/storage/client/SessionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/cloud/storage/client/SessionData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/classes/com/cloud/storage/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/cloud/storage/client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/classes/com/cloud/storage/client/SessionData.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/cloud/storage/client/SessionData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/cloud/storage/server/FirstHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/cloud/storage/server/FirstHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/cloud/storage/server/SqlHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/cloud/storage/server/SqlHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/cloud/storage/server/FirstHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/cloud/storage/server/FirstHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/cloud/storage/server/SqlHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/cloud/storage/server/SqlHandler.class" afterDir="false" />
-    </list>
+    <list default="true" id="ffb35d23-c566-4839-9174-0fd7b92fc2e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
@@ -506,7 +495,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
