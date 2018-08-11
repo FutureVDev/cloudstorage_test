@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112-ea"
+      fx:controller="com.cloud.storage.client.LoginController" fx:id="loginNode" prefWidth="800.0" prefHeight="600.0">
+
+    <Label text="Login:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="loginField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <PasswordField onAction="#handleAuth" fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <HBox alignment="bottom_center" spacing="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+        <Button onAction="#handleAuth" text="Sign In"/>
+    </HBox>
+
+</VBox>
